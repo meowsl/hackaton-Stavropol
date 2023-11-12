@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\ImGui">
+      <UniqueIdentifier>{78bf463d-a493-4397-9506-7df792b1288d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Menu">
+      <UniqueIdentifier>{f3c4cac6-cba5-4156-88aa-f489654bc3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Socket">
+      <UniqueIdentifier>{7a5614c9-3bbb-47e3-8d10-59b71816dc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\hash">
+      <UniqueIdentifier>{3ce34fab-1160-478a-9ffb-eedcd6b793c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImGui\imconfig.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_dx9.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_impl_win32.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\menu.h">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\login.h">
+      <Filter>Исходные файлы\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\md5.hpp">
+      <Filter>Исходные файлы\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="hash\oxorany_bak.h">
+      <Filter>Исходные файлы\hash</Filter>
+    </ClInclude>
+    <ClInclude Include="raw.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_demo.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_dx9.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Исходные файлы\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\main.cpp">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\menu.cpp">
+      <Filter>Исходные файлы\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\md5.cpp">
+      <Filter>Исходные файлы\hash</Filter>
+    </ClCompile>
+    <ClCompile Include="hash\oxorany.cpp">
+      <Filter>Исходные файлы\hash</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
